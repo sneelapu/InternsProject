@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <h2>Submitted Questions</h2>
+  <table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th>Language</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>Java</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>python</td>
+      <td>20</td>
+          </tr>
+    <tr>
+      <td>C</td>
+      <td>15</td>
+         </tr>
+  </table>
+  <ng-template #content let-modal>
+    <div class="modal-header" style="background-color:#233242">
+      <h4 class="modal-title" id="modal-basic-title" style="color:#ffff">Test Scores</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true" style="font-size:16px;outline:none;color:#ffff">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th>Test</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Test 1</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Test 2</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>Test 3</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>Test 4</td>
+              <td>20</td>
+            </tr>
+          </table>
+
+
+        </div>
+      </form>
+    </div>
+  
+  </ng-template>
+  <!-- <div id="id01" class="modal">
+  
+    <span  class="close" title="Close Modal">&times;</span>
+    <label style="color:black;"> Score</label>
+  
+      
+</div> -->
+</body>
+
+</html>
