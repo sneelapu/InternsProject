@@ -13,7 +13,7 @@
     "compile": "0.0.2",
     "express": "^4.17.0",
     "load": "^1.0.2",
-    "mongoose": "^5.5.10",
+    "mongoose": "^5.7.5",
     "nodemailer": "^6.2.1",
     "request": "^2.88.0"
   }
